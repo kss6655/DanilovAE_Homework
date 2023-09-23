@@ -46,7 +46,7 @@ public class HomeworkTests
     }
 
     [Test]
-    public void NavigationMenu()
+    public void NavigationMenu1()
     {
         var community = driver.FindElement(By.CssSelector("[data-tid='Community']"));
         community.Click();
